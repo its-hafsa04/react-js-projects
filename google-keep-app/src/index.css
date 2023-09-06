@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.header{
+  padding: 0 40px;
+  height: 5.5rem;
+  background-color: rgb(252, 227, 181);
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  position: relative;
+};
+.logo {
+    height: 5rem;
+  };
+.note{
+    border: 2px solid transparent;
+    text-align: center;
+}
+.main_note{
+    width: 400px;
+    height: 250px;
+    margin-top: 30px;
+    border: 2px solid transparent;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 500px;
+    padding-left: 15px;
+    box-shadow: 4px 5px 20px -5px black;
+    border-radius: 5px;
+    position: relative;
+}
+.main_note input{
+    width: 98%;
+    margin-top: 50px;
+    font-size: x-large;
+    height: 30px;
+    padding: 5px 3px;
+    font-weight: 700;
+    border: none;
+    background-color: rgb(254, 255, 255);
+}
+.main_note textarea{
+    width: 98%;
+    height: 120px;
+    font-size: larger;
+    padding: 10px 7px;
+    font-weight: 500;
+    border: none;
+    background-color: rgb(251, 255, 255);
+}
+.main_note button{
+    width: 45px;
+    height: 45px;
+    float: right;
+    border-radius: 50%;
+    background-color: white;
+    color: orange;
+    border: none;
+    z-index: 222;
+    margin-left: 150px;
+    cursor: pointer;
+    margin-top: 35px;
+    font-size: x-large;
+    font-weight: 900;
+    box-shadow: 4px 5px 20px -5px black;
+}
+.main_note button:hover{
+    color: white;
+    background-color: orange;
+}
+.note{
+    width: 200px;
+    height: 200px;
+    border: 1.2px solid transparent;
+    padding: 10px;
+    margin: 20px 10px;
+    box-shadow: 4px 5px 15px -5px black;
+    border-radius: 5px;
+    display: inline-block;
+}
+.note h1{
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+}
+.note p {
+    font-weight: 600;
+    font-size: large;
+}
+.note button{
+    width: 35px;
+    height: 35px;
+    float: right;
+    border-radius: 50%;
+    color: orange;
+    background-color: white;
+    border: none;
+    z-index: 222;
+    margin-left: 100px;
+    cursor: pointer;
+    margin-top: 110px;
+}
+.note button:hover{
+    background-color: orange;
+    color: white;
+}
+footer p{
+    text-align: center;
+    margin-top: auto;
+}

@@ -1,0 +1,83 @@
+.active{
+    color: white;
+}
+.main{
+    background-color: rgb(107, 161, 249); 
+}
+.main nav{
+    padding: 10px 5px;
+    display: flex;
+    justify-content: space-evenly;
+    letter-spacing: 2px;
+    
+}
+.main nav i{
+    font-size: larger;
+   font-weight: 700;
+    margin-left: 10px;
+}
+h1{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 900;
+    color: blue;
+}
+#proFile{
+    margin: 30px 60px;
+}
+.profile{
+    display: flex;
+    height: 50vh;
+    margin-top: 40px;
+}
+.profile p{
+margin: 70px 30px;
+font-size: medium;
+font-weight: 500;
+}
+.profile img{
+    border-radius: 50%;
+}
+#proFile button{
+    background-color: blue;
+    color: white;
+    padding: 10px 15px;
+    border: transparent;
+    float: right;
+    margin-top: 60px;
+    cursor: pointer;
+}
+
+.form{
+    height: 60vh;
+    
+    background-color: aliceblue;
+    margin-top: 20px;
+    margin-left: 350px;
+    margin-right: 350px;
+    padding: 20px 40px;
+}
+.form input{
+    padding: 5px 10px;
+    width: 90%;
+}
+.form button{
+    background-color: blue;
+    color: white;
+    padding: 10px 15px;
+    border: transparent;
+    margin-top: 20px;
+    cursor: pointer;
+    margin-right: 40px;
+}
+.search{
+    width: 50%;
+    margin: 0 auto;
+height: auto;
+text-align: center;
+}
+.search input{
+    margin: 30px 0;
+    padding: 5px 10px;
+    border-radius: 5px;
+}

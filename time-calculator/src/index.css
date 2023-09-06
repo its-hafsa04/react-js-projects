@@ -1,0 +1,42 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(217, 216, 216);
+}
+div{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+h1{
+  font-size: 60px;
+  text-align: center;
+  font-weight: 900;
+  margin-bottom: 15px;
+}
+button{
+  padding: 20px 25px;
+  color: white;
+  font-weight: 900;
+  letter-spacing: 2px;
+  font-size: x-large;
+  background-color: rgb(109, 80, 191);
+  border-radius: 5px;
+  border: 3px solid snow;
+  outline: none;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+
+@media (max-width : 768px) {
+  .card{
+    float: none;
+    margin: 5%;
+    width: 90%;
+  }
+}

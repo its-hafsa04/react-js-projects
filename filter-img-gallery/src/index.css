@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+  }
+  h1{
+    color: rgb(5, 5, 112);
+  }
+  hr{
+    color: orange;
+  }
+  .btn:hover{
+color: orange;
+background-color: black;
+  }
+  .Item-inside{
+   border: none;
+   box-shadow: 4px 5px 20px -10px rgb(87, 86, 86);
+   margin-left: 10px;
+   margin-right: 10px;
+   border-radius: 25px;
+  }
+  .Item-inside:hover{
+height: 220px;
+width: 360px;
+border: 1px solid beige;
+  }
+  .img-div img{
+    padding-top: 15px;
+    height: 90%;
+  }
+  
+  @media all and (max-width:968px) {
+    .center{
+      width: 70%;
+    }
+    button{
+      width: auto;
+    }
+  }
+  @media all and (max-width:768px) {
+    .center{
+      width: 80%;
+    }
+    button{
+      width: auto;
+    }
+  }
+  @media all and (max-width:468px) {
+    .center{
+      width: 100%;
+    }
+    button{
+      width: auto;
+    }
+  }

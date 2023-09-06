@@ -1,0 +1,87 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(168, 167, 167);
+}
+.heading_style{
+  padding: 30px 0;
+  text-align: center;
+  font-size: 13px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+  font-weight: 900;
+  color: gray;
+  background-color: white;
+}
+.cards{
+  width: 100%;
+  height: auto;
+  background-color: white;
+}
+.card{
+  margin: 6%;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0, 1);
+  width: 21.25%;
+background-color: white;
+border-radius: 12px;
+float: left;
+box-shadow: 0 13px 10px -7px rgb(75, 74, 74);
+}
+.card:hover{
+  box-shadow: 0 30px 18px -8px rgb(75, 74, 74);
+  transform: scale(1.05,1.05);
+}
+.card-img{
+  width: 100%;
+  height: 235px;
+  border-top-left-radius: 12px ;
+  border-top-right-radius: 12px ;
+}
+.card-info{
+  border-top-left-radius: 12px ;
+background-color: white;
+border-top-right-radius: 12px ;
+padding: 16px 24px 24px 24px;
+}
+.card-category{
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 3px;
+  font-weight: 500;
+  color: rgb(95, 95, 95);
+  background-color: white;
+  padding-right: 42px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+.card-title{
+  margin-top: 5px;
+  margin-bottom: 10px;
+  background-color: white;
+  text-transform: capitalize;
+}
+button {
+  margin-top: 5px;
+  padding: 5px 8px;
+  text-transform: uppercase;
+  background-color: rgb(244, 142, 142);
+  font-size: 13px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  border: 1px solid black;
+  outline: none;
+  cursor: pointer;
+}
+button:hover{
+  background-color: red;
+}
+@media (max-width : 768px) {
+  .card{
+    float: none;
+    margin: 5%;
+    width: 90%;
+  }
+}
